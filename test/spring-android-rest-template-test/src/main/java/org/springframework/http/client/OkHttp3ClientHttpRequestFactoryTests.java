@@ -1,5 +1,5 @@
 /*
- * Copyright 2002-2014 the original author or authors.
+ * Copyright 2002-2016 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,14 +31,14 @@ import android.util.Log;
  * @author Stéphane Nicolas
  * @author Roy Clarkson
  */
-public class OkHttpClientHttpRequestFactoryTests extends AbstractHttpRequestFactoryTestCase {
+public class OkHttp3ClientHttpRequestFactoryTests extends AbstractHttpRequestFactoryTestCase {
 
-	private static final String TAG = "OkHttpRequestFctryTests";
+	private static final String TAG = "OkHttp3RequestFctryTests";
 
 
 	@Override
 	protected ClientHttpRequestFactory createRequestFactory() {
-		return new OkHttpClientHttpRequestFactory();
+		return new OkHttp3ClientHttpRequestFactory();
 	}
 
 	@Override
